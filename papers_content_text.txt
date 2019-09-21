@@ -1,0 +1,1419 @@
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+
+
+MIDAS@IIITD
+
+
+Research
+Team
+Papers
+Blog
+Openings
+
+
+              More 
+
+
+News
+Events
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+MIDAS@IIITD
+
+
+Research
+Team
+Papers
+Blog
+Openings
+
+
+              More 
+
+
+News
+Events
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+
+
+
+
+
+
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+
+
+
+
+
+
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+
+
+
+
+
+
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+
+
+
+
+
+
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+
+
+
+
+
+
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+
+
+
+
+
+
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+
+
+
+
+
+
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+
+
+
+
+
+
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+
+
+
+
+
+
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+
+
+
+
+
+
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+
+
+
+
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+Did you offend me? Classification of Offensive Tweets in Hinglish Language
+
+
+
+
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+
+
+
+
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+Get IT Scored using AutoSAS - An Automated System for Scoring Short Answers
+
+
+
+
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+
+
+
+
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+Identification of Emergency Blood Donation Request on Twitter
+
+
+
+
+
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+
+
+
+
+
+
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+
+
+
+
+
+
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+
+
+
+
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+Exploring and Learning Suicidal Ideation Connotations in Social Media with DL
+
+
+
+
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+
+
+
+
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+Neural Machine Translation for English-Tamil
+
+
+
+
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+
+
+
+
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+Mind Your Language: Abuse and Offense Detection for Code-Switched Languages
+
+
+
+
+
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+
+
+
+
+
+
+
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+DeepLip: Speaker Independent Speech Synthesis using Multi-View Lipreading
+
+
+
+
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+
+
+
+
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+Lipper: Synthesizing Thy Speech using Multi-View Lipreading
+
+
+
+
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+
+
+
+
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+Exploring Classification of Histological Disease Bio-markers from Renal Biopsy Images
+
+
+
+
+
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+
+
+
+
+
+
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+
+
+
+
+
+
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+
+
+
+
+
+
+
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+
+
+
+
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+Kiki Kills: Identifying Dangerous Challenge Videos from Social Media
+
+
+
+
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+
+
+
+
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+Harnessing AI for Speech Reconstruction using Multi-view Silent Video Feed
+
+
+
+
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+
+
+
+
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+Learning and Fusing Multimodal Deep Features for Acoustic Scene Categorization
+
+
+
+
+
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+
+
+
+
+
+
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+
+
+
+
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+Detecting Offensive Tweets in Hindi-English Code-Switched Language
+
+
+
+
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+Key2Vec: Automatic Ranked Keyphrase Extraction from Scientific Articles using Phrase Embeddings
+
+
+
+
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+
+
+
+
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+#phramacovigilance - Exploring Deep Learning Techniques for Identifying Mentions of Medication Intake from Twitter
+
+
+
+
+
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+
+
+
+
+
+
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+
+
+
+
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+Aspect-Based Financial Sentiment Analysis using Deep Learning
+
+
+
+
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+
+
+
+
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+Theme-weighted Ranking of Keywords from Text Documents using Phrase Embeddings
+
+
+
+
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+
+
+
+
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+A Multimodal Approach to Predict Social Media Popularity
+
+
+
+
+
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+
+
+
+
+
+
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+
+
+
+
+
+
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+
+
+
+
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+Did you take the #pill? - Detecting Personal Intake of Medicine from Twitter
+
+
+
+
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+
+
+
+
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+Feature-based Map Matching for Low-Sampling-Rate GPS Trajectories
+
+
+
+
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+
+
+
+
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+Geometry-based Localization for GPS Outage in Vehicular Cyber Physical Systems
+
+
+
+
+
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+
+
+
+
+
+
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+
+
+
+
+
+
+
+
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+
+
+
+
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+FastShrinkage: Perceptually-aware Retargeting Toward Mobile Platforms
+
+
+
+
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+
+
+
+
+
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+
+Virtualization in Wireless Sensor Networks: Fault Tolerant Embedding for Internet of Things
+
+
+ 
+
+
+
+
+
+
+
+
+
+Indraprastha Institute of Information Technology, Delhi
+
+
+About
+
+Contact
+
+
+
+ 
+
+
+
+
+
+
+
+Indraprastha Institute of Information Technology, Delhi
+
+
+About
+
+Contact
+

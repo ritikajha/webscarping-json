@@ -1,0 +1,553 @@
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+
+
+MIDAS@IIITD
+
+
+Research
+Team
+Papers
+Blog
+Openings
+
+
+              More 
+
+
+News
+Events
+
+
+
+
+
+
+Toggle navigation
+
+
+
+
+
+
+
+
+
+
+MIDAS@IIITD
+
+
+Research
+Team
+Papers
+Blog
+Openings
+
+
+              More 
+
+
+News
+Events
+
+
+
+
+
+
+
+
+
+
+Mind Your Language
+
+
+				29 Jan 2019
+				
+				by Raghav
+
+
+
+
+
+This blog is about our research project where we studied abuse and offense detection in the code switched pair of Hindi and English(i.e., Hinglish) under the expert guidance of Dr. Rajiv Ratn Shah, Dr. Roger Zimmermann, and Dr. Ponnurangam Kumaraguru.
+As we write this blog, we remember our journey as research interns at MIDAS Lab. We started this project as our college project in August ’18 when this idea was like a small seed which was sown by our friend Yaman Kumar who is experienced in this field. He introduced us with the highly intellectual professors at MIDAS Lab, who not only gave us a direction but also galvanized us each day into transforming this small idea into a full-fledged research project. As we started working, we became cognizant of the fact that it this a vital issue in today’s world and must be addressed. From what we discovered in our journey; we would like to give everyone a glimpse of it - A small idea that turned into a publication in one of the most prestigious conference of Artificial Intelligence - AAAI’19 at Honolulu, Hawaii, USA, as part of the student abstract and poster track.
+Why Hinglish(code switched pair of Hindi and English) ?
+In the Indian Subcontinent the number of Internet users has been continuously rising with the penetration of internet among the masses.It is being estimated that the number of internet users in India will cross 700 million by 2021.With about 53% of the users using Hinglish as the medium of communication on social media in India, the need of the the hour is to have some system to detect hate speech,offensive and abusive posts on social media.
+Has it been done before?
+Although there are many previous works which deal with Hindi and English hate speech (the top two languages in India), but very few on the code-switched version (Hinglish) of the two (Mathur et al. 2018). This is partially due to the following reasons:
+
+Hinglish consists of no-fixed grammar and vocabulary. It derives a part of its semantics from Devnagari and another part from the Roman script.
+Hinglish speech and written text consists of a concoction of words spoken in Hindi as well as English, but written in the Roman script. This makes the spellings variable and dependent on the writer of the text. 
+Hence code-switched languages present tough challenges in terms of parsing and getting the meaning out of the text.
+
+Our contribution!
+Our work primarily consists of these steps: Preprocessing of the dataset, training of word embeddings,training of the classifier model and then using that on HEOT dataset. Preprocessing involves transliteration using Indic-transliteration python library and translation using Xlit-crowd conversion dictionary which was manually added with common Hinglish words and some profane words. This was followed by training of Glove(Pennington, Socher, and Manning 2014) and Twitter word2vec(Godin et al. 2015) embeddings on both the Davidson and HEOT dataset.Finally a ternary classification model was used using LSTM to classify these tweets into three categories(offensive, abusive and  benign).
+
+
+As shown in the above figure the model was initially trained on the dataset provided by Davidson and then re-trained on the HEOT dataset so as to benefit from the transfer of learned features in the last stage.
+Results
+
+
+We have produced “state of the art” results for english.Our model trained on Glove embeddings gives the best results on HEOT dataset. For comparison purposes we also calculate the results of our model on the Davidson dataset.
+Applications
+
+Detect False Propaganda by Political Groups in Elections.
+Youtube/Netflix Subtitles – “Auto-beep” offensive language.
+Online Social Media - Report Defamatory Pages and comments.
+Feedback analytics for better user experience.
+Real time “clean-chat” facility.
+Censor board – Auto-eliminate abusive content
+
+Future Work
+In future we look to extend the work in the following ways:
+Use dependency based word embeddings and compare them to the normal word embeddings.
+Work on a model to classify images and videos(also having hindi text) into three categories offensive, abusive and  benign.
+Detect and report facebook users and pages based on their recent posts.
+We feel immensely proud to be the part of this extremely enjoyable journey where we not only learnt just theoretically but also implemented those concepts to real life applications to witness the great impact that technology and artificial intelligence brings to life. We feel honoured and grateful on being able to contribute our skills and simultaneously learn each day from our guides and professors at MIDAS Lab who inspired us throughout the project. This has been a totally satisfying and rewarding experience and would wish to work with the team in future as well to use technology for a better tomorrow. Also, we would like to thank Puneet Mathur for sharing the HEOT dataset and inspiring us through his work in the following paper “Mathur, P.; Shah, R.; Sawhney, R.; and Mahata, D. 2018. Detecting offensive tweets in hindi-english code-switched language. In Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, 18–26.”
+Above all, we thank Almighty God for giving us this opportunity, being with us and guiding us in all situations and making our way through each and every problem.
+Here is a link to a short video for better understanding of the project - https://drive.google.com/open?id=1rpEcsv03B1yifjLftllK3Hep-Ecyzew2
+
+
+
+
+
+
+
+
+Kiki Challenge Dataset Release
+
+
+				26 Sep 2018
+				
+				by Raghav
+
+
+
+
+
+Introduction
+What is this challenge about?
+One of the most famous online social media challenge these days is the Kiki challenge. Also known as “In My Feelings Challenge” or “Do The Shiggy”, it originated when a comedian Shiggy released a video, dancing on the road to the tunes of this song by Drake. Since then people have considered it to be a challenge in which they need to get down of a moving car, and dance alongside the traffic risking their lives and getting their video captured.
+How popular is the challenge ?
+There is no country which has been left untouched when it comes to this. It originated in Canada and spread over the world including United States, Mexico, United Kingdom, India, South Africa, Costa Rica, Egypt, Argentina and so on. People are sharing thousands of tweets commonly involving their videos on a daily basis on social platforms like Twitter and Facebook.
+What’s wrong !!?
+While it is good to dance and burn some calories, but when it comes to the road it is not such a brilliant idea. There has been many reported incidents where people have been hit by speedy vehicles, fallen off the car and collided head-start with electric poles. It possesses a serious risk to life if not taken with precautions and may even lead to death.
+
+Our contributions
+Realising the importance and implications that this challenge has on the life of so many people, MIDAS decided to build a system which can detect the danger in a given video. The exact methodology followed by us was -
+1. Analysing the common hashtags used
+We started with collecting tweets for the last 15 days using the Tweepy API. Next, we scanned through the data to find out what were the top 20 most commonly used hashtags during the July-August duration using their frequency of occurrence.
+Results of this analysis can be found here - Distribution of Hashtags in Twitter data
+2. Creating a dataset from social platforms
+
+
+Tweet Collection: The common hashtags discovered in the previous step were used as keywords for further searching of tweets for the complete duration of late June to September. Data from hashtags such as #mumbai police and #egypt police which had comparatively smaller frequency were collected separately.
+
+
+Video Collection: After we had a good set of tweets, we used the URLs provided as a parameter inside tweets to download corresponding videos.
+
+
+Annotation: Two annotators worked through the complete list of videos categorising them as either safe or dangerous. Removal of retweeted videos as well as irrelevant videos which seemed to not relate was simultaneously done.
+Cross annotation parameter was also calculated by labelling 400 videos for each of the annotators to ensure there was consistency. This test was successful and we obtained a high value (0.95) of Cohen’s Kappa.
+
+
+3. Building a model for detecting dangerous incidents
+We built a video classification model with VGG16 as the base model. This was appended with a subtle combination of flatten, fully connected dense layers, max pooling layers and dropout layers.
+The model works by taking as input a batch of data containing captured frames of the video we want to classify. The output produced is the probabilities of video between safe and dangerous. Thus we classify the category of the video after rounding the probabilities to the nearest possible values.
+
+4. Evaluation of models to judge their consistency
+We used model checkpointing to store the weights of the best model. Further, to determine the consistency of our model we evaluated it on the test set. An accuracy of 87 percent was obtained, along with a precision of 0.96, and recall score of 0.9.
+Future Work
+Although the current model is fair enough to generate good results, it can surely be improved to account for time analysis using recurrent neural network models. 
+We also plan to create a hybrid model which can take into account both the textual and visual data in a tweet and generate results more accurately.
+The following video provides a complete summary:
+
+About Us:
+The authors involved for this project are:
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann 
+All of us are members of the MIDAS community.
+To help on improving research in this domain we are hereby releasing the dataset which contains more than 2.3k videos of the KIKI challenge collected from Twitter.
+KIKI Datasets Download
+For the time being the dataset is avalable on request. Anyone intrested can send us a request via E-mail stating there purpose of use (We did some work for you, just click here). We will respond within 7 days.
+Please refre our dataset as below
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann : Kiki Kills: Identifying Dangerous Challenge Videos from Social Media (2018).
+
+
+
+
+
+
+
+
+
+
+Mind Your Language
+
+
+				29 Jan 2019
+				
+				by Raghav
+
+
+
+
+
+This blog is about our research project where we studied abuse and offense detection in the code switched pair of Hindi and English(i.e., Hinglish) under the expert guidance of Dr. Rajiv Ratn Shah, Dr. Roger Zimmermann, and Dr. Ponnurangam Kumaraguru.
+As we write this blog, we remember our journey as research interns at MIDAS Lab. We started this project as our college project in August ’18 when this idea was like a small seed which was sown by our friend Yaman Kumar who is experienced in this field. He introduced us with the highly intellectual professors at MIDAS Lab, who not only gave us a direction but also galvanized us each day into transforming this small idea into a full-fledged research project. As we started working, we became cognizant of the fact that it this a vital issue in today’s world and must be addressed. From what we discovered in our journey; we would like to give everyone a glimpse of it - A small idea that turned into a publication in one of the most prestigious conference of Artificial Intelligence - AAAI’19 at Honolulu, Hawaii, USA, as part of the student abstract and poster track.
+Why Hinglish(code switched pair of Hindi and English) ?
+In the Indian Subcontinent the number of Internet users has been continuously rising with the penetration of internet among the masses.It is being estimated that the number of internet users in India will cross 700 million by 2021.With about 53% of the users using Hinglish as the medium of communication on social media in India, the need of the the hour is to have some system to detect hate speech,offensive and abusive posts on social media.
+Has it been done before?
+Although there are many previous works which deal with Hindi and English hate speech (the top two languages in India), but very few on the code-switched version (Hinglish) of the two (Mathur et al. 2018). This is partially due to the following reasons:
+
+Hinglish consists of no-fixed grammar and vocabulary. It derives a part of its semantics from Devnagari and another part from the Roman script.
+Hinglish speech and written text consists of a concoction of words spoken in Hindi as well as English, but written in the Roman script. This makes the spellings variable and dependent on the writer of the text. 
+Hence code-switched languages present tough challenges in terms of parsing and getting the meaning out of the text.
+
+Our contribution!
+Our work primarily consists of these steps: Preprocessing of the dataset, training of word embeddings,training of the classifier model and then using that on HEOT dataset. Preprocessing involves transliteration using Indic-transliteration python library and translation using Xlit-crowd conversion dictionary which was manually added with common Hinglish words and some profane words. This was followed by training of Glove(Pennington, Socher, and Manning 2014) and Twitter word2vec(Godin et al. 2015) embeddings on both the Davidson and HEOT dataset.Finally a ternary classification model was used using LSTM to classify these tweets into three categories(offensive, abusive and  benign).
+
+
+As shown in the above figure the model was initially trained on the dataset provided by Davidson and then re-trained on the HEOT dataset so as to benefit from the transfer of learned features in the last stage.
+Results
+
+
+We have produced “state of the art” results for english.Our model trained on Glove embeddings gives the best results on HEOT dataset. For comparison purposes we also calculate the results of our model on the Davidson dataset.
+Applications
+
+Detect False Propaganda by Political Groups in Elections.
+Youtube/Netflix Subtitles – “Auto-beep” offensive language.
+Online Social Media - Report Defamatory Pages and comments.
+Feedback analytics for better user experience.
+Real time “clean-chat” facility.
+Censor board – Auto-eliminate abusive content
+
+Future Work
+In future we look to extend the work in the following ways:
+Use dependency based word embeddings and compare them to the normal word embeddings.
+Work on a model to classify images and videos(also having hindi text) into three categories offensive, abusive and  benign.
+Detect and report facebook users and pages based on their recent posts.
+We feel immensely proud to be the part of this extremely enjoyable journey where we not only learnt just theoretically but also implemented those concepts to real life applications to witness the great impact that technology and artificial intelligence brings to life. We feel honoured and grateful on being able to contribute our skills and simultaneously learn each day from our guides and professors at MIDAS Lab who inspired us throughout the project. This has been a totally satisfying and rewarding experience and would wish to work with the team in future as well to use technology for a better tomorrow. Also, we would like to thank Puneet Mathur for sharing the HEOT dataset and inspiring us through his work in the following paper “Mathur, P.; Shah, R.; Sawhney, R.; and Mahata, D. 2018. Detecting offensive tweets in hindi-english code-switched language. In Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, 18–26.”
+Above all, we thank Almighty God for giving us this opportunity, being with us and guiding us in all situations and making our way through each and every problem.
+Here is a link to a short video for better understanding of the project - https://drive.google.com/open?id=1rpEcsv03B1yifjLftllK3Hep-Ecyzew2
+
+
+
+
+
+Mind Your Language
+
+
+				29 Jan 2019
+				
+				by Raghav
+
+
+Mind Your Language
+
+				29 Jan 2019
+				
+				by Raghav
+
+
+
+This blog is about our research project where we studied abuse and offense detection in the code switched pair of Hindi and English(i.e., Hinglish) under the expert guidance of Dr. Rajiv Ratn Shah, Dr. Roger Zimmermann, and Dr. Ponnurangam Kumaraguru.
+As we write this blog, we remember our journey as research interns at MIDAS Lab. We started this project as our college project in August ’18 when this idea was like a small seed which was sown by our friend Yaman Kumar who is experienced in this field. He introduced us with the highly intellectual professors at MIDAS Lab, who not only gave us a direction but also galvanized us each day into transforming this small idea into a full-fledged research project. As we started working, we became cognizant of the fact that it this a vital issue in today’s world and must be addressed. From what we discovered in our journey; we would like to give everyone a glimpse of it - A small idea that turned into a publication in one of the most prestigious conference of Artificial Intelligence - AAAI’19 at Honolulu, Hawaii, USA, as part of the student abstract and poster track.
+Why Hinglish(code switched pair of Hindi and English) ?
+In the Indian Subcontinent the number of Internet users has been continuously rising with the penetration of internet among the masses.It is being estimated that the number of internet users in India will cross 700 million by 2021.With about 53% of the users using Hinglish as the medium of communication on social media in India, the need of the the hour is to have some system to detect hate speech,offensive and abusive posts on social media.
+Has it been done before?
+Although there are many previous works which deal with Hindi and English hate speech (the top two languages in India), but very few on the code-switched version (Hinglish) of the two (Mathur et al. 2018). This is partially due to the following reasons:
+
+Hinglish consists of no-fixed grammar and vocabulary. It derives a part of its semantics from Devnagari and another part from the Roman script.
+Hinglish speech and written text consists of a concoction of words spoken in Hindi as well as English, but written in the Roman script. This makes the spellings variable and dependent on the writer of the text. 
+Hence code-switched languages present tough challenges in terms of parsing and getting the meaning out of the text.
+
+Our contribution!
+Our work primarily consists of these steps: Preprocessing of the dataset, training of word embeddings,training of the classifier model and then using that on HEOT dataset. Preprocessing involves transliteration using Indic-transliteration python library and translation using Xlit-crowd conversion dictionary which was manually added with common Hinglish words and some profane words. This was followed by training of Glove(Pennington, Socher, and Manning 2014) and Twitter word2vec(Godin et al. 2015) embeddings on both the Davidson and HEOT dataset.Finally a ternary classification model was used using LSTM to classify these tweets into three categories(offensive, abusive and  benign).
+
+
+As shown in the above figure the model was initially trained on the dataset provided by Davidson and then re-trained on the HEOT dataset so as to benefit from the transfer of learned features in the last stage.
+Results
+
+
+We have produced “state of the art” results for english.Our model trained on Glove embeddings gives the best results on HEOT dataset. For comparison purposes we also calculate the results of our model on the Davidson dataset.
+Applications
+
+Detect False Propaganda by Political Groups in Elections.
+Youtube/Netflix Subtitles – “Auto-beep” offensive language.
+Online Social Media - Report Defamatory Pages and comments.
+Feedback analytics for better user experience.
+Real time “clean-chat” facility.
+Censor board – Auto-eliminate abusive content
+
+Future Work
+In future we look to extend the work in the following ways:
+Use dependency based word embeddings and compare them to the normal word embeddings.
+Work on a model to classify images and videos(also having hindi text) into three categories offensive, abusive and  benign.
+Detect and report facebook users and pages based on their recent posts.
+We feel immensely proud to be the part of this extremely enjoyable journey where we not only learnt just theoretically but also implemented those concepts to real life applications to witness the great impact that technology and artificial intelligence brings to life. We feel honoured and grateful on being able to contribute our skills and simultaneously learn each day from our guides and professors at MIDAS Lab who inspired us throughout the project. This has been a totally satisfying and rewarding experience and would wish to work with the team in future as well to use technology for a better tomorrow. Also, we would like to thank Puneet Mathur for sharing the HEOT dataset and inspiring us through his work in the following paper “Mathur, P.; Shah, R.; Sawhney, R.; and Mahata, D. 2018. Detecting offensive tweets in hindi-english code-switched language. In Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, 18–26.”
+Above all, we thank Almighty God for giving us this opportunity, being with us and guiding us in all situations and making our way through each and every problem.
+Here is a link to a short video for better understanding of the project - https://drive.google.com/open?id=1rpEcsv03B1yifjLftllK3Hep-Ecyzew2
+
+
+This blog is about our research project where we studied abuse and offense detection in the code switched pair of Hindi and English(i.e., Hinglish) under the expert guidance of Dr. Rajiv Ratn Shah, Dr. Roger Zimmermann, and Dr. Ponnurangam Kumaraguru.
+As we write this blog, we remember our journey as research interns at MIDAS Lab. We started this project as our college project in August ’18 when this idea was like a small seed which was sown by our friend Yaman Kumar who is experienced in this field. He introduced us with the highly intellectual professors at MIDAS Lab, who not only gave us a direction but also galvanized us each day into transforming this small idea into a full-fledged research project. As we started working, we became cognizant of the fact that it this a vital issue in today’s world and must be addressed. From what we discovered in our journey; we would like to give everyone a glimpse of it - A small idea that turned into a publication in one of the most prestigious conference of Artificial Intelligence - AAAI’19 at Honolulu, Hawaii, USA, as part of the student abstract and poster track.
+Why Hinglish(code switched pair of Hindi and English) ?
+In the Indian Subcontinent the number of Internet users has been continuously rising with the penetration of internet among the masses.It is being estimated that the number of internet users in India will cross 700 million by 2021.With about 53% of the users using Hinglish as the medium of communication on social media in India, the need of the the hour is to have some system to detect hate speech,offensive and abusive posts on social media.
+Has it been done before?
+Although there are many previous works which deal with Hindi and English hate speech (the top two languages in India), but very few on the code-switched version (Hinglish) of the two (Mathur et al. 2018). This is partially due to the following reasons:
+
+Hinglish consists of no-fixed grammar and vocabulary. It derives a part of its semantics from Devnagari and another part from the Roman script.
+Hinglish speech and written text consists of a concoction of words spoken in Hindi as well as English, but written in the Roman script. This makes the spellings variable and dependent on the writer of the text. 
+Hence code-switched languages present tough challenges in terms of parsing and getting the meaning out of the text.
+
+Our contribution!
+Our work primarily consists of these steps: Preprocessing of the dataset, training of word embeddings,training of the classifier model and then using that on HEOT dataset. Preprocessing involves transliteration using Indic-transliteration python library and translation using Xlit-crowd conversion dictionary which was manually added with common Hinglish words and some profane words. This was followed by training of Glove(Pennington, Socher, and Manning 2014) and Twitter word2vec(Godin et al. 2015) embeddings on both the Davidson and HEOT dataset.Finally a ternary classification model was used using LSTM to classify these tweets into three categories(offensive, abusive and  benign).
+
+
+As shown in the above figure the model was initially trained on the dataset provided by Davidson and then re-trained on the HEOT dataset so as to benefit from the transfer of learned features in the last stage.
+Results
+
+
+We have produced “state of the art” results for english.Our model trained on Glove embeddings gives the best results on HEOT dataset. For comparison purposes we also calculate the results of our model on the Davidson dataset.
+Applications
+
+Detect False Propaganda by Political Groups in Elections.
+Youtube/Netflix Subtitles – “Auto-beep” offensive language.
+Online Social Media - Report Defamatory Pages and comments.
+Feedback analytics for better user experience.
+Real time “clean-chat” facility.
+Censor board – Auto-eliminate abusive content
+
+Future Work
+In future we look to extend the work in the following ways:
+Use dependency based word embeddings and compare them to the normal word embeddings.
+Work on a model to classify images and videos(also having hindi text) into three categories offensive, abusive and  benign.
+Detect and report facebook users and pages based on their recent posts.
+We feel immensely proud to be the part of this extremely enjoyable journey where we not only learnt just theoretically but also implemented those concepts to real life applications to witness the great impact that technology and artificial intelligence brings to life. We feel honoured and grateful on being able to contribute our skills and simultaneously learn each day from our guides and professors at MIDAS Lab who inspired us throughout the project. This has been a totally satisfying and rewarding experience and would wish to work with the team in future as well to use technology for a better tomorrow. Also, we would like to thank Puneet Mathur for sharing the HEOT dataset and inspiring us through his work in the following paper “Mathur, P.; Shah, R.; Sawhney, R.; and Mahata, D. 2018. Detecting offensive tweets in hindi-english code-switched language. In Proceedings of the Sixth International Workshop on Natural Language Processing for Social Media, 18–26.”
+Above all, we thank Almighty God for giving us this opportunity, being with us and guiding us in all situations and making our way through each and every problem.
+Here is a link to a short video for better understanding of the project - https://drive.google.com/open?id=1rpEcsv03B1yifjLftllK3Hep-Ecyzew2
+
+
+
+Kiki Challenge Dataset Release
+
+
+				26 Sep 2018
+				
+				by Raghav
+
+
+
+
+
+Introduction
+What is this challenge about?
+One of the most famous online social media challenge these days is the Kiki challenge. Also known as “In My Feelings Challenge” or “Do The Shiggy”, it originated when a comedian Shiggy released a video, dancing on the road to the tunes of this song by Drake. Since then people have considered it to be a challenge in which they need to get down of a moving car, and dance alongside the traffic risking their lives and getting their video captured.
+How popular is the challenge ?
+There is no country which has been left untouched when it comes to this. It originated in Canada and spread over the world including United States, Mexico, United Kingdom, India, South Africa, Costa Rica, Egypt, Argentina and so on. People are sharing thousands of tweets commonly involving their videos on a daily basis on social platforms like Twitter and Facebook.
+What’s wrong !!?
+While it is good to dance and burn some calories, but when it comes to the road it is not such a brilliant idea. There has been many reported incidents where people have been hit by speedy vehicles, fallen off the car and collided head-start with electric poles. It possesses a serious risk to life if not taken with precautions and may even lead to death.
+
+Our contributions
+Realising the importance and implications that this challenge has on the life of so many people, MIDAS decided to build a system which can detect the danger in a given video. The exact methodology followed by us was -
+1. Analysing the common hashtags used
+We started with collecting tweets for the last 15 days using the Tweepy API. Next, we scanned through the data to find out what were the top 20 most commonly used hashtags during the July-August duration using their frequency of occurrence.
+Results of this analysis can be found here - Distribution of Hashtags in Twitter data
+2. Creating a dataset from social platforms
+
+
+Tweet Collection: The common hashtags discovered in the previous step were used as keywords for further searching of tweets for the complete duration of late June to September. Data from hashtags such as #mumbai police and #egypt police which had comparatively smaller frequency were collected separately.
+
+
+Video Collection: After we had a good set of tweets, we used the URLs provided as a parameter inside tweets to download corresponding videos.
+
+
+Annotation: Two annotators worked through the complete list of videos categorising them as either safe or dangerous. Removal of retweeted videos as well as irrelevant videos which seemed to not relate was simultaneously done.
+Cross annotation parameter was also calculated by labelling 400 videos for each of the annotators to ensure there was consistency. This test was successful and we obtained a high value (0.95) of Cohen’s Kappa.
+
+
+3. Building a model for detecting dangerous incidents
+We built a video classification model with VGG16 as the base model. This was appended with a subtle combination of flatten, fully connected dense layers, max pooling layers and dropout layers.
+The model works by taking as input a batch of data containing captured frames of the video we want to classify. The output produced is the probabilities of video between safe and dangerous. Thus we classify the category of the video after rounding the probabilities to the nearest possible values.
+
+4. Evaluation of models to judge their consistency
+We used model checkpointing to store the weights of the best model. Further, to determine the consistency of our model we evaluated it on the test set. An accuracy of 87 percent was obtained, along with a precision of 0.96, and recall score of 0.9.
+Future Work
+Although the current model is fair enough to generate good results, it can surely be improved to account for time analysis using recurrent neural network models. 
+We also plan to create a hybrid model which can take into account both the textual and visual data in a tweet and generate results more accurately.
+The following video provides a complete summary:
+
+About Us:
+The authors involved for this project are:
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann 
+All of us are members of the MIDAS community.
+To help on improving research in this domain we are hereby releasing the dataset which contains more than 2.3k videos of the KIKI challenge collected from Twitter.
+KIKI Datasets Download
+For the time being the dataset is avalable on request. Anyone intrested can send us a request via E-mail stating there purpose of use (We did some work for you, just click here). We will respond within 7 days.
+Please refre our dataset as below
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann : Kiki Kills: Identifying Dangerous Challenge Videos from Social Media (2018).
+
+
+
+
+
+Kiki Challenge Dataset Release
+
+
+				26 Sep 2018
+				
+				by Raghav
+
+
+Kiki Challenge Dataset Release
+
+				26 Sep 2018
+				
+				by Raghav
+
+
+
+Introduction
+What is this challenge about?
+One of the most famous online social media challenge these days is the Kiki challenge. Also known as “In My Feelings Challenge” or “Do The Shiggy”, it originated when a comedian Shiggy released a video, dancing on the road to the tunes of this song by Drake. Since then people have considered it to be a challenge in which they need to get down of a moving car, and dance alongside the traffic risking their lives and getting their video captured.
+How popular is the challenge ?
+There is no country which has been left untouched when it comes to this. It originated in Canada and spread over the world including United States, Mexico, United Kingdom, India, South Africa, Costa Rica, Egypt, Argentina and so on. People are sharing thousands of tweets commonly involving their videos on a daily basis on social platforms like Twitter and Facebook.
+What’s wrong !!?
+While it is good to dance and burn some calories, but when it comes to the road it is not such a brilliant idea. There has been many reported incidents where people have been hit by speedy vehicles, fallen off the car and collided head-start with electric poles. It possesses a serious risk to life if not taken with precautions and may even lead to death.
+
+Our contributions
+Realising the importance and implications that this challenge has on the life of so many people, MIDAS decided to build a system which can detect the danger in a given video. The exact methodology followed by us was -
+1. Analysing the common hashtags used
+We started with collecting tweets for the last 15 days using the Tweepy API. Next, we scanned through the data to find out what were the top 20 most commonly used hashtags during the July-August duration using their frequency of occurrence.
+Results of this analysis can be found here - Distribution of Hashtags in Twitter data
+2. Creating a dataset from social platforms
+
+
+Tweet Collection: The common hashtags discovered in the previous step were used as keywords for further searching of tweets for the complete duration of late June to September. Data from hashtags such as #mumbai police and #egypt police which had comparatively smaller frequency were collected separately.
+
+
+Video Collection: After we had a good set of tweets, we used the URLs provided as a parameter inside tweets to download corresponding videos.
+
+
+Annotation: Two annotators worked through the complete list of videos categorising them as either safe or dangerous. Removal of retweeted videos as well as irrelevant videos which seemed to not relate was simultaneously done.
+Cross annotation parameter was also calculated by labelling 400 videos for each of the annotators to ensure there was consistency. This test was successful and we obtained a high value (0.95) of Cohen’s Kappa.
+
+
+3. Building a model for detecting dangerous incidents
+We built a video classification model with VGG16 as the base model. This was appended with a subtle combination of flatten, fully connected dense layers, max pooling layers and dropout layers.
+The model works by taking as input a batch of data containing captured frames of the video we want to classify. The output produced is the probabilities of video between safe and dangerous. Thus we classify the category of the video after rounding the probabilities to the nearest possible values.
+
+4. Evaluation of models to judge their consistency
+We used model checkpointing to store the weights of the best model. Further, to determine the consistency of our model we evaluated it on the test set. An accuracy of 87 percent was obtained, along with a precision of 0.96, and recall score of 0.9.
+Future Work
+Although the current model is fair enough to generate good results, it can surely be improved to account for time analysis using recurrent neural network models. 
+We also plan to create a hybrid model which can take into account both the textual and visual data in a tweet and generate results more accurately.
+The following video provides a complete summary:
+
+About Us:
+The authors involved for this project are:
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann 
+All of us are members of the MIDAS community.
+To help on improving research in this domain we are hereby releasing the dataset which contains more than 2.3k videos of the KIKI challenge collected from Twitter.
+KIKI Datasets Download
+For the time being the dataset is avalable on request. Anyone intrested can send us a request via E-mail stating there purpose of use (We did some work for you, just click here). We will respond within 7 days.
+Please refre our dataset as below
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann : Kiki Kills: Identifying Dangerous Challenge Videos from Social Media (2018).
+
+
+Introduction
+What is this challenge about?
+One of the most famous online social media challenge these days is the Kiki challenge. Also known as “In My Feelings Challenge” or “Do The Shiggy”, it originated when a comedian Shiggy released a video, dancing on the road to the tunes of this song by Drake. Since then people have considered it to be a challenge in which they need to get down of a moving car, and dance alongside the traffic risking their lives and getting their video captured.
+How popular is the challenge ?
+There is no country which has been left untouched when it comes to this. It originated in Canada and spread over the world including United States, Mexico, United Kingdom, India, South Africa, Costa Rica, Egypt, Argentina and so on. People are sharing thousands of tweets commonly involving their videos on a daily basis on social platforms like Twitter and Facebook.
+What’s wrong !!?
+While it is good to dance and burn some calories, but when it comes to the road it is not such a brilliant idea. There has been many reported incidents where people have been hit by speedy vehicles, fallen off the car and collided head-start with electric poles. It possesses a serious risk to life if not taken with precautions and may even lead to death.
+
+Our contributions
+Realising the importance and implications that this challenge has on the life of so many people, MIDAS decided to build a system which can detect the danger in a given video. The exact methodology followed by us was -
+1. Analysing the common hashtags used
+We started with collecting tweets for the last 15 days using the Tweepy API. Next, we scanned through the data to find out what were the top 20 most commonly used hashtags during the July-August duration using their frequency of occurrence.
+Results of this analysis can be found here - Distribution of Hashtags in Twitter data
+2. Creating a dataset from social platforms
+
+
+Tweet Collection: The common hashtags discovered in the previous step were used as keywords for further searching of tweets for the complete duration of late June to September. Data from hashtags such as #mumbai police and #egypt police which had comparatively smaller frequency were collected separately.
+
+
+Video Collection: After we had a good set of tweets, we used the URLs provided as a parameter inside tweets to download corresponding videos.
+
+
+Annotation: Two annotators worked through the complete list of videos categorising them as either safe or dangerous. Removal of retweeted videos as well as irrelevant videos which seemed to not relate was simultaneously done.
+Cross annotation parameter was also calculated by labelling 400 videos for each of the annotators to ensure there was consistency. This test was successful and we obtained a high value (0.95) of Cohen’s Kappa.
+
+
+3. Building a model for detecting dangerous incidents
+We built a video classification model with VGG16 as the base model. This was appended with a subtle combination of flatten, fully connected dense layers, max pooling layers and dropout layers.
+The model works by taking as input a batch of data containing captured frames of the video we want to classify. The output produced is the probabilities of video between safe and dangerous. Thus we classify the category of the video after rounding the probabilities to the nearest possible values.
+
+4. Evaluation of models to judge their consistency
+We used model checkpointing to store the weights of the best model. Further, to determine the consistency of our model we evaluated it on the test set. An accuracy of 87 percent was obtained, along with a precision of 0.96, and recall score of 0.9.
+Future Work
+Although the current model is fair enough to generate good results, it can surely be improved to account for time analysis using recurrent neural network models. 
+We also plan to create a hybrid model which can take into account both the textual and visual data in a tweet and generate results more accurately.
+The following video provides a complete summary:
+
+About Us:
+The authors involved for this project are:
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann 
+All of us are members of the MIDAS community.
+To help on improving research in this domain we are hereby releasing the dataset which contains more than 2.3k videos of the KIKI challenge collected from Twitter.
+KIKI Datasets Download
+For the time being the dataset is avalable on request. Anyone intrested can send us a request via E-mail stating there purpose of use (We did some work for you, just click here). We will respond within 7 days.
+Please refre our dataset as below
+Nupur Baghel, Yaman Kumar, Paavini Nanda, Rajiv Ratn Shah, Debanjan Mahata and Roger Zimmermann : Kiki Kills: Identifying Dangerous Challenge Videos from Social Media (2018).
+
+
+ 
+
+
+
+
+
+
+
+
+
+Indraprastha Institute of Information Technology, Delhi
+
+
+About
+
+Contact
+
+
+
+ 
+
+
+
+
+
+
+
+Indraprastha Institute of Information Technology, Delhi
+
+
+About
+
+Contact
+
